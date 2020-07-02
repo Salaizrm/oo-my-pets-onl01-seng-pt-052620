@@ -62,4 +62,7 @@ class Owner
     end
   end
 
+  def list_pets
+    pets = self.cat + self.dogs
+    puts pets
 end
